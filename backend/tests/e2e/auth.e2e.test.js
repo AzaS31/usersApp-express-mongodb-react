@@ -3,8 +3,10 @@ const app = require('../../app');
 const { startTestDB, stopTestDB, clearTestDB } = require('../setup');
 
 beforeAll(async () => {
+    process.env.JWT_EXPIRES_IN = '1s';  // ставим короткое время жизни токена для теста
     await startTestDB();
 });
+
 
 afterAll(async () => {
     await stopTestDB();

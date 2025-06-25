@@ -3,7 +3,11 @@ const express = require('express');
 const errorHandler = require('../../middlewares/errorHandler'); 
 const logger = require('../../logs/logger');
 
-jest.mock('../../logs/logger');
+jest.mock('../../logs/logger', () => ({
+  error: jest.fn(),
+  transports: [true], // добавляем заглушку, чтобы условие прошло
+}));
+
 
 describe('Error handler middleware', () => {
   const app = express();

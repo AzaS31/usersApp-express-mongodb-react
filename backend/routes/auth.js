@@ -171,11 +171,11 @@ router.post(
       const token = jwt.sign(
         { userId: user._id.toString() },
         JWT_SECRET,
-        { expiresIn: '2h' }
+        { expiresIn: process.env.JWT_EXPIRES_IN || '2h' }
       );
       res.send({ token });
     } catch (err) {
-        next(err);
+      next(err);
     }
   }
 );
