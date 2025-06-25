@@ -1,0 +1,17 @@
+[2025-06-24T18:30:19.155Z] INFO: Server listening on port 3000
+[2025-06-24T18:33:35.136Z] INFO: Server listening on port 3000
+[2025-06-24T18:37:10.765Z] INFO: Server listening on port 3000
+[2025-06-24T18:40:16.907Z] INFO: Server listening on port 3000
+[2025-06-24T18:43:04.288Z] INFO: Server listening on port 3000
+[2025-06-25T14:27:12.011Z] ERROR: Could not connect to DB: connect ECONNREFUSED 127.0.0.1:27017
+[2025-06-25T16:47:54.838Z] INFO: Server listening on port 3000
+[2025-06-25T16:54:30.056Z] ERROR: Could not connect to DB: getaddrinfo ENOTFOUND mongo
+[2025-06-25T16:59:55.547Z] INFO: Server listening on port 3000
+[2025-06-25T17:00:19.373Z] ERROR: [POST /auth/login] Неверные email или пароль
+Error: Неверные email или пароль
+    at C:\Users\YOGA SLIM 7 PRO\Desktop\GB_Education\js\nodejs\Users_Express_MongoDB\backend\routes\auth.js:166:23
+[2025-06-25T17:04:04.534Z] INFO: Server listening on port 3000
+[2025-06-25T17:10:23.581Z] INFO: Server listening on port 3000
+[2025-06-25T17:10:53.443Z] ERROR: [POST /auth/login] Неверные email или пароль
+Error: Неверные email или пароль
+    at /app/routes/auth.js:166:23
