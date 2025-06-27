@@ -15,3 +15,12 @@ Error: Неверные email или пароль
 [2025-06-25T17:10:53.443Z] ERROR: [POST /auth/login] Неверные email или пароль
 Error: Неверные email или пароль
     at /app/routes/auth.js:166:23
+[2025-06-25T18:41:53.224Z] ERROR: Could not connect to DB: getaddrinfo ENOTFOUND mongo
+[2025-06-25T18:44:00.224Z] INFO: Server listening on port 3000
+[2025-06-25T18:44:02.649Z] ERROR: [POST /auth/register] Пользователь с таким email уже существует
+Error: Пользователь с таким email уже существует
+    at C:\Users\YOGA SLIM 7 PRO\Desktop\GB_Education\js\nodejs\Users_Express_MongoDB\backend\routes\auth.js:82:23
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2025-06-25T18:44:10.736Z] ERROR: [POST /auth/login] Неверные email или пароль
+Error: Неверные email или пароль
+    at C:\Users\YOGA SLIM 7 PRO\Desktop\GB_Education\js\nodejs\Users_Express_MongoDB\backend\routes\auth.js:166:23
